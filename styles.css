@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{/* asterisco pega TUDO!*/
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+:root{
+    --tl: 0px;
+    --tr: 0px;
+    --bl: 0px;
+    --br: 0px;
+    --color: rgb(255, 255, 255);
+    --size: 500px;
+}
+
+body{
+    background-color: black;
+
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+#content{
+
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    width: 60%;
+}
+#box{
+    border-top-left-radius: var(--tl);
+    border-top-right-radius: var(--tr);
+    border-bottom-left-radius: var(--bl);
+    border-bottom-right-radius: var(--br);
+    background-color: var(--color);
+
+    transition: ease 1s;
+
+    width: var(--size);
+    height: var(--size);
+}
+/*
+#box: :hover{ 
+}
+*/
+.borda{
+    transition: ease 1s;
+
+    margin: 20px;
+    border-color: white;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+}
+#color{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    background-color:var(--color);
+}
+#tamanho{
+
+    margin: 20px;
+    border-color: white;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+}
+#ok{
+
+    margin: 20px;
+    border-color: white;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
